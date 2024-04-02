@@ -4,7 +4,7 @@
 
 This project contains the implementation of linear regression from scratch. The project includes functions to compute the cost function and the gradient descent algorithm.
 
-![Cost function](https://latex.codecogs.com/svg.image?f_{(w,b)}(x)=wx+b)
+![Cost function](https://latex.codecogs.com/svg.image?\color{white}f_{(w,b)}(x)=wx+b)
 
 ## Implementation Details
 
@@ -14,7 +14,7 @@ The cost function is a crucial component of machine learning algorithms. The cos
 
 
 
-![Cost function](https://latex.codecogs.com/svg.image?J(w,b)=\frac{1}{2m}\sum_{i=1}^{m}(f_{w,b}(x^{(i)})-y^{(i)})^{2})
+![Cost function](https://latex.codecogs.com/svg.image?\color{white}J(w,b)=\frac{1}{2m}\sum_{i=1}^{m}(f_{w,b}(x^{(i)})-y^{(i)})^{2})
 
 - \( m \) is the number of training examples.
 - \( X \) is the feature matrix.
@@ -27,9 +27,9 @@ Gradient descent is an optimization algorithm used to minimize the cost function
 
 The formula for updating the parameters using gradient descent is:
 
-![Cost function](https://latex.codecogs.com/svg.image?w=w-a*\frac{1}{m}\sum_{i=1}^{m}(f_{w,b}(x^{(i)})-y^{(i)})*x^{(i)})
+![Cost function](https://latex.codecogs.com/svg.image?\color{white}w=w-a*\frac{1}{m}\sum_{i=1}^{m}(f_{w,b}(x^{(i)})-y^{(i)})*x^{(i)})
 
-![Cost function](https://latex.codecogs.com/svg.image?b=b-a*\frac{1}{m}\sum_{i=1}^{m}(f_{w,b}(x^{(i)})-y^{(i)}))
+![Cost function](https://latex.codecogs.com/svg.image?\color{white}b=b-a*\frac{1}{m}\sum_{i=1}^{m}(f_{w,b}(x^{(i)})-y^{(i)}))
 
 
 - \( m \) is the number of training examples.
